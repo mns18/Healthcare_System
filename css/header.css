@@ -1,0 +1,253 @@
+#topHeader{
+    height: 8.6rem;
+    width: 100vw;
+    position: relative;
+    background-color: rgb(93, 182, 255);
+}
+
+#topHeader .topHeaderLogo{
+    float: left;
+    width: 30vw;
+    height: 8.6rem;
+    background:whitesmoke;
+    clip-path: polygon(29.31vw 0px, 0.16vw 0px, 0.19vw 8.6rem, 25.29vw 8.70rem);
+    position: absolute;
+    
+}
+
+#topHeader .hd{
+    width: 5vw;
+    height: 8.6rem;
+    float: left;
+    background:whitesmoke;
+    clip-path: polygon(4.97vw 0px, 0.34vw 8.6rem, 4.97vw 8.6rem);
+    position: absolute;
+    left: 25vw;
+    z-index: 30;
+}
+
+#topHeader .hd .hdtt{
+    height: 3.5rem;
+    width: 100%;
+    background-color: rgb(93, 182, 255);
+}
+
+#topHeader .topHeader_menu{
+
+    float: right;
+    width: 70vw;
+    height: 8.6rem;
+    position: absolute;
+    left: 30vw;
+    background-color: green;
+    
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu1{
+    float: left;
+    left: 25vw;
+    height: 3.5rem;
+    background-color: rgb(93, 182, 255);
+    width: 100%;
+
+}
+
+
+#topHeader .topHeader_menu .topHeader_menu1 .topHeader_SecondaryMenu{
+    padding-top: .5rem;
+    margin-left: 30%;
+}
+
+
+#topHeader .topHeader_menu .topHeader_menu1 .topHeader_SecondaryMenu .topHeader_submenu_item{
+    list-style-type: none;
+    float: left;
+    margin-left: 5%;
+
+}
+
+
+#topHeader .topHeader_menu .topHeader_menu1 .topHeader_SecondaryMenu .topHeader_submenu_item .topHeader_submenu_link{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu1 .topHeader_SecondaryMenu .topHeader_submenu_item .topHeader_submenu_link i{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+
+/*Style For Top Main Menu*/
+#topHeader .topHeader_menu .topHeader_menu2{
+    float: right;
+    left: 30vw;
+    height: 5.1rem;
+    background-color: whitesmoke;
+    width: 100%;
+
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu{
+    margin-top: 1.2rem;
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item{
+    float: left;
+    list-style-type: none;
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .topHeader_mainMenu_link{
+    text-decoration: none;
+    color:black;
+    padding: 1rem 3rem;;
+    background-color: whitesmoke;
+    font-size: 2rem;
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .topHeader_mainMenu_link:hover{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: .8rem 3rem;
+    background-color: rgb(92, 92, 92);
+    font-size: 2.2rem;
+}
+
+/*Main Menu's sub menu service submenu*/
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .serviceSubMenu{
+    width: 25rem;
+    background-color: rgb(92, 92, 92);
+    margin-top: 1rem;
+    display: none;
+    
+
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .serviceSubMenu .serviceSubMenu_item{
+    width: 24rem;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(197, 188, 188);
+    height: 4rem;
+    background-color: rgb(92, 92, 92);
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item:hover .serviceSubMenu{
+    display: block;
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .serviceSubMenu .serviceSubMenu_item .serviceSubMenu_link{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 1rem;
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .serviceSubMenu .serviceSubMenu_item:hover{
+    width: 24rem;
+    border-bottom: 2px solid rgb(248, 189, 189);
+    background-color: rgb(81, 104, 101);
+    height: 4rem;
+    
+    
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .serviceSubMenu .serviceSubMenu_item .serviceSubMenu_link:hover{
+    
+    color:aqua;
+}
+
+/*Main Menu's sub menu ONline Appoint's submenu*/
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .OnlineAppoint_subMenu{
+    width: 25rem;
+    background-color: rgb(92, 92, 92);
+    margin-top: 1rem;
+    display: none;
+    
+
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .OnlineAppoint_subMenu .OnlineAppoint_subMenu_item{
+    width: 24rem;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(197, 188, 188);
+    height: 4rem;
+    background-color: rgb(92, 92, 92);
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item:hover .OnlineAppoint_subMenu{
+    display: block;
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .OnlineAppoint_subMenu .OnlineAppoint_subMenu_item .OnlineAppoint_subMenu_link{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 1rem;
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .OnlineAppoint_subMenu .OnlineAppoint_subMenu_item:hover{
+    width: 24rem;
+    border-bottom: 2px solid rgb(248, 189, 189);
+    background-color: rgb(81, 104, 101);
+    height: 4rem;
+    
+    
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .serviceSubMenu .OnlineAppoint_subMenu_item .OnlineAppoint_subMenu_link:hover{
+    
+    color:aqua;
+}
+
+
+/*Main Menu's sub menu Contact's submenu*/
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .contactSubMenu{
+    width: 25rem;
+    background-color: rgb(92, 92, 92);
+    margin-top: 1rem;
+    display: none;
+    
+
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .contactSubMenu .contactSubMenu_item{
+    width: 24rem;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(197, 188, 188);
+    height: 4rem;
+    background-color: rgb(92, 92, 92);
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item:hover .contactSubMenu{
+    display: block;
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .contactSubMenu .contactSubMenu_item .contactSubMenu_link{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 1rem;
+    
+}
+
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .contactSubMenu .contactSubMenu_item:hover{
+    width: 24rem;
+    border-bottom: 2px solid rgb(248, 189, 189);
+    background-color: rgb(81, 104, 101);
+    height: 4rem;
+    
+    
+}
+#topHeader .topHeader_menu .topHeader_menu2 .topHeader_SecondMenu .topHeader_mainMenu .topHeader_mainMenu_item .contactSubMenu .contactSubMenu_item .contactSubMenu_link:hover{
+    
+    color:aqua;
+}
+
+
+
+
+

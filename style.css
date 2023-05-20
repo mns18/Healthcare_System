@@ -1,0 +1,17 @@
+@import url("css/header.css");
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+body{
+    overflow: hidden;
+    width:100vw;
+}
